@@ -1,0 +1,29 @@
+#root {
+	--breakpoint: var(--break-at, 30rem);
+	margin: 0 auto;
+	text-align: center;
+}
+.headr {
+	padding: 10px 0;
+}
+.contcolr {
+	background: linear-gradient(
+		to right,
+		rgba(169, 3, 41, 1) 0%,
+		rgba(2, 90, 112, 0.28) 50%,
+		rgba(204, 78, 0, 1) 100%
+	);
+}
+
+.wrapper {
+	height: 300px;
+}
+.upLoadList {
+	border-top: 1px solid black;
+	text-align: left;
+}
+.downLoadList {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: left;
+}
